@@ -1,0 +1,219 @@
+.industries{
+  height: 4em;
+  padding: 1em 1em;
+  margin: 1em 0;
+  overflow: hidden;
+}
+.industry_name{
+  float: left;
+  margin-right: 2em;
+}
+
+#prefs{
+  height: 20%;
+  overflow: hidden;
+}
+
+
+.oauth_linkedin{
+  width: 20%;
+  margin-left: 5%;
+}
+
+.profile_img{
+  padding: 0 0;
+  margin: 0 0 ;
+  margin-top: -0.5em !important;
+  height: 2.2em;
+}
+
+
+.preferences_form{
+  padding: 2% 4%;
+}
+
+.user_display button{
+  margin: auto;
+  position: absolute;
+  top: 22%;
+  right: 0.5%;
+  background: none;
+  position: center;
+  color: lightblue;
+  border: 0px;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
+
+button.upvote{
+  top: 18%;
+}
+
+
+.profile_picture{
+  padding: 0.3% 0.3%;
+  width: 5em;
+}
+
+.username{
+  margin-left: 2em;
+  font-size: 3em;
+  font-style: bold;
+}
+
+.professional_info,
+.golf_info,
+.golf_info1{
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+
+.info_img{
+  margin: 0 15%;
+  padding: 0 2%;
+  border: 1px solid grey;
+  background-position: 4% 4% 1% 1%;
+  color: black;
+  font-style: helvetica;
+}
+
+.info{
+  background: rgba(255, 255, 255, 0.9);
+  margin: 0.5% 0.5%;
+  overflow: scroll;
+  height: auto;
+  padding: 1% 1%;
+}
+
+.info p{
+  width: 80%;
+  margin: 2% 10%;
+}
+
+.info i{
+  text-align: center;
+}
+
+.user_selection{
+  height: 25em;
+  overflow: hidden;
+}
+
+.checkbox{
+  margin-left: 2%;
+  width: 20%;
+}
+
+#slider{
+  text-align: center;
+  width: 40%;
+  float: right;
+  position: relative;
+  margin-right: 30%;
+  margin-left: 30%;
+  top: 4%;
+}
+
+.industry_name{
+  float: right;
+  text-align: center;
+  height: 2%;
+  top: 2%;
+  margin: 2% 2%;
+}
+.industries{
+  margin-left: -10%;
+}
+
+.friend{
+  border-bottom: 1px solid grey;
+}
+
+.title{
+  font-size: 1.2%;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.education p,
+.jobs p,
+.golf_info p,
+.golf_info1 p{
+  border-bottom: 1px solid lightgrey;
+  overflow: scroll;
+}
+.education p,
+.jobs p{
+  height: 3.2%;
+}
+
+
+.nav li a:hover{
+  color: grey;
+}
+
+
+.add_info{
+  border-bottom: none;
+  height: 2%;
+  background-color: white !important;
+}
+
+
+
+/* Responsiveness */
+.title{
+  display: block;
+}
+
+.education,
+.jobs,
+.golf_info,
+.golf_info1 { display: none; }
+
+.golf_info p,
+.golf_info1 p{
+  height: 1.6em !important;
+}
+.professional_info{
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+ .education,
+ .jobs,
+ .golf_info,
+ .golf_info1 { display: block; }
+
+ .professional_info{
+  border-right: 1px solid grey;
+  width: 50%;
+}
+
+.user_display{
+  margin: 1% 1%;
+  min-width: 300px;
+  padding: 0.5% 0.5%;
+}
+
+.well{
+  margin-top: 2em;
+  height: 40em;
+}
+
+
+}
+
+.user_display button{
+  right: 4%;
+  top: 60%;
+}
+
+button.upvote{
+  top: 45%;
+}
+.input-group{
+  margin-bottom: 2em;
+}
